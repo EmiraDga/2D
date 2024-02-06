@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T15:26:45.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="F7iAMfMBe2v-jttJ8n5D" version="23.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-06T15:33:38.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="-UN7qa8y3xJ2mgIpA1V4" version="23.1.1" type="github" pages="3">
   <diagram name="Page-1" id="fWkWztUBhXae4kOZfuRt">
-    <mxGraphModel dx="2977" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
         <mxCell id="1UrD_oh5H9wD-xEEALGg-7" value="&lt;div&gt;GATEWAY&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="294" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="GATEWAY : load balancer -&amp;gt; app-gateway-zuul " placeholders="1" name="Variable" id="1UrD_oh5H9wD-xEEALGg-9">
+        <UserObject label="GATEWAY : load balancer -&amp;gt; &lt;b&gt;app-gateway-zuul&lt;/b&gt; " placeholders="1" name="Variable" id="1UrD_oh5H9wD-xEEALGg-9">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
             <mxGeometry x="275" y="810" width="160" height="40" as="geometry" />
           </mxCell>
@@ -102,7 +102,7 @@
         <mxCell id="1UrD_oh5H9wD-xEEALGg-38" value="&lt;div&gt;instance 1&amp;nbsp; service A instace 2&amp;nbsp; service B&lt;/div&gt;&lt;div&gt;instance 3 service C&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <UserObject label="app-ereuka" placeholders="1" name="Variable" id="1UrD_oh5H9wD-xEEALGg-40">
+        <UserObject label="&lt;b&gt;app-ereuka&lt;/b&gt;" placeholders="1" name="Variable" id="1UrD_oh5H9wD-xEEALGg-40">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
             <mxGeometry x="200" y="420" width="160" height="40" as="geometry" />
           </mxCell>
@@ -161,7 +161,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="27GasyHU4KXFeatmATBf" name="Page-2">
-    <mxGraphModel dx="1843" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2345" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,11 +337,29 @@
         <mxCell id="X3Rmm0y15LJ81EYCOGtk-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
           <mxGeometry x="130" y="760" width="70" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="euqaenWp_MbURVlWSUU2-1" value="Request for subscription" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="556.01" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ7l4vynwwS3vzxqUOgU-1" value="subscription in oupce&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="876.65" y="615" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ7l4vynwwS3vzxqUOgU-2" value="synchronization user in TOPSKOOL" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1013.3" y="479.01" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ7l4vynwwS3vzxqUOgU-3" value="communcation of TOPSKOOL service with its microservice topgrade" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="335" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ7l4vynwwS3vzxqUOgU-4" value="notification sending for the mobile client or the web client" style="text;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ7l4vynwwS3vzxqUOgU-5" value="HTTP reqeuests (API)&lt;br&gt;from microservice TOPGRADE" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="PCz2WQX0zCKQcpD-KZX_" name="Page-3">
-    <mxGraphModel dx="2580" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -613,6 +631,9 @@
         </mxCell>
         <mxCell id="87qn_qPbRDambAiX5TXD-57" value="Request for Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mBdYZyjzG9b2a83ROkQL-1" value="subscription in oupce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="816.26" y="230" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
